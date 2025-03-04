@@ -1,10 +1,10 @@
-.header {
+.navbar {
     overflow: hidden;
     background-color: #3fd1eb;
     padding: 20px 10px;
   }
 
-  .header a {
+  .nav-links {
     float: left;
     color: black;
     text-align: center;
@@ -14,6 +14,20 @@
     line-height: 25px;
     border-radius: 4px;
   }
+
+  nav-link {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  /* .header nav-links {
+
+  } */
 
   .header a.logo {
     font-size: 25px;
