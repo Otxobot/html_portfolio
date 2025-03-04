@@ -5,21 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My portfolio</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <p>My portfolio</p>
-            <ul id="nav-links">
-                <li class="nav-link"><a href="index.html">Home</a></li>
-                <li class="nav-link"><a href="projects.html">Projects</a></li>
-                <li class="nav-link"><a href="contact.html">Contact</a></li>
+        <div class="navbar">
+            <p class="title">My portfolio</p>
+            <ul class="navbar-buttons">
+                <button class="nav-link"><a href="index.html">Home</a></button>
+                <button class="nav-link"><a href="projects.html">Projects</a></button>
+                <button class="nav-link"><a href="contact.html">Contact</a></button>
             </ul>
-        </nav>
+        </div>
     </header>
-    <p>Este es el projects</p>
+    <main>
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+                <h2>Web server</h2>
+                <p>A C++ web server project involves creating a server that listens for HTTP requests, processes them, and sends back responses. It uses sockets for communication, and may utilize multithreading or asynchronous I/O to handle multiple requests. The server can serve static files or generate dynamic content based on the request.</p>
+            </div>
+            <div class="column" style="background-color:#aaa;">
+                <h2>Inception</h2>
+                <p>It involves setting up a personal virtual machine with Docker and configuring various services like Nginx, MySQL, and WordPress. The goal is to understand how to deploy and manage multiple services within isolated containers, ensuring they work together in a controlled environment. The project emphasizes skills in system administration, networking, and Docker usage.</p>
+                <i class="fa-brands fa-docker" style="font-size: 40px;"></i>
+                <i class="fa-solid fa-database" style="font-size: 40px"></i>
+            </div>
+            <div class="column" style="background-color:#aaa;">
+                <h2>Smart Home Dashboard</h2>
+                <p>A web application for monitoring and controlling smart home devices. The dashboard allows users to control lights, thermostats, and security cameras in real-time. Built with React for the frontend and Node.js for the backend, using MongoDB for storing user preferences and device status. The project also includes integration with APIs for smart devices like Nest and Philips Hue.</p>
+                <i class="fa-brands fa-react" style="font-size: 40px;"></i>
+                <i class="fa-brands fa-node" style="font-size: 40px;"></i>
+            </div>
+            <div class="column" style="background-color:#aaa;">
+                <h2>E-Commerce Platform</h2>
+                <p> An e-commerce platform for a small business, featuring product listings, a shopping cart, payment processing, and order tracking. Developed with Angular for the frontend, Spring Boot for the backend, and PostgreSQL for database management. The platform also includes an admin panel for product management and order analytics.</p>
+                <i class="fa-brands fa-angular" style="font-size: 40px;"></i>
+                <i class="fa-brands fa-js" style="font-size: 40px;"></i>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://linkedin.com">
+            <i style="font-size: 50px;" class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Otxobot">
+            <i style="font-size: 50px;" class="fa-brands fa-github"></i>
+        </a>
+    </footer>
 </body>
 
 </html>
