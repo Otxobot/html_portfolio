@@ -4,6 +4,7 @@
   font-size: 30px;
   color: rgb(255, 255, 255);
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar {
@@ -12,6 +13,10 @@
     position: relative;
     
   }
+
+.nav-link {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .navbar-buttons{
   max-width: fit-content;
@@ -81,9 +86,19 @@
     }
 
     .guy-info {
+      text-align: left;
 
+    }
+
+    .profile-title {
+      font-size: 50px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .guy-pic {
       float: left;
+    }
+
+    .form {
+      
     }

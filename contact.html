@@ -23,7 +23,45 @@
         </div>
     </header>
     <main>
+        <!-- <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br><br>
+            <label for="number">Phone number:</label>
+            <input type="number" id="number" name="number">
+            
+            <button type="submit">Enviar</button>
 
+            <button type="reset">Limpiar Formulario</button>
+          </form> -->
+
+          <form class="form" action="#" method="post">
+            
+            <fieldset>
+              <legend style="font-size: x-large;">Datos Personales</legend>
+              
+              <div class="form-group">
+                <label for="nombre" style="font-size: large">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <span class="help-text" style="font-size: large">Ingrese su nombre completo</span>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" style="font-size: large">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" style="font-size: large">Email inválido</span>
+              </div>
+            </fieldset>
+            
+            <div class="form-actions">
+              <button type="submit" style="font-size: large">Enviar</button>
+              <button type="reset" style="font-size: large">Limpiar</button>
+            </div>
+          </form>
     </main>
     <footer class="footer">
         <a href="https://linkedin.com">
