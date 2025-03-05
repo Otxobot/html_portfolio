@@ -19,6 +19,9 @@
 .nav-link {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.active{
+  background-color: #53cbef;
+}
 
 .navbar-buttons{
   max-width: fit-content;
@@ -76,9 +79,8 @@
     }
 
     .column {
-      
       float: left;
-      width: 25%;
+      width: 400px;
       padding: 10px;
       height: 300px;
       border: 2px solid black;
@@ -116,6 +118,7 @@
       padding: 200px;
       border: 5px solid black;
       margin: 20px;
+      margin-bottom: 100px;
     }
 
     .profile-image {

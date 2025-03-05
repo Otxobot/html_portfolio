@@ -2,75 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>My portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My portfolio</title>
 </head>
 
 <body>
   <header>
     <div class="navbar">
-        <p class="title">My portfolio</p>
-        <ul class="navbar-buttons">
-            <button class="nav-link"><a href="index.html" style="text-decoration:none;">Home</a></button>
-            <button class="nav-link"><a href="projects.html" style="text-decoration:none;">Projects</a></button>
-            <button class="nav-link"><a href="contact.html" style="text-decoration:none;">Contact</a></button>
-        </ul>
+      <p class="title">My portfolio</p>
+      <ul class="navbar-buttons">
+        <button class="nav-link"><a href="index.html" style="text-decoration:none;">Home</a></button>
+        <button class="nav-link"><a href="projects.html" style="text-decoration:none;">Projects</a></button>
+        <button class="nav-link active"><a href="contact.html" style="text-decoration:none;">Contact</a></button>
+      </ul>
     </div>
-</header>
-    <main>
-        <!-- <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-            <br>
-            <br>
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email">
-            <br><br>
-            <label for="number">Phone number:</label>
-            <input type="number" id="number" name="number">
-            
-            <button type="submit">Enviar</button>
+  </header>
+  <main>
+    <form class="form">
 
-            <button type="reset">Limpiar Formulario</button>
-          </form> -->
+      <fieldset>
+        <legend style="font-size: x-large;">Personal details</legend>
+        <div>
+          <p style="font-size:20px;">Let's get in touch!</p>
+        </div>
 
-          <form class="form" action="#" method="post">
-            
-            <fieldset>
-              <legend style="font-size: x-large;">Datos Personales</legend>
-              
-              <div class="form-group">
-                <label for="nombre" style="font-size: large">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <span class="help-text" style="font-size: large">Ingrese su nombre completo</span>
-              </div>
-              
-              <div class="form-group">
-                <label for="email" style="font-size: large">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <span class="error-message" style="font-size: large">Email inválido</span>
-              </div>
-            </fieldset>
-            
-            <div class="form-actions">
-              <button type="submit" style="font-size: large">Enviar</button>
-              <button type="reset" style="font-size: large">Limpiar</button>
-            </div>
-          </form>
-    </main>
-    <footer class="footer">
-        <a href="https://linkedin.com">
-            <i style="font-size: 50px;" class="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/Otxobot">
-            <i style="font-size: 50px;" class="fa-brands fa-github"></i>
-        </a>
-    </footer>
+        <div class="form-group">
+          <label for="nombre" style="font-size: large">Name:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <span class="help-text" style="font-size: large">Type your entire name</span>
+        </div>
+
+        <div class="form-group">
+          <label for="email" style="font-size: large">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-message" style="font-size: large">Invalid email</span>
+        </div>
+
+        <div>
+          <p style="font-size:20px;">Send me a message</p>
+          <textarea name="textarea" id="textarea2" cols="30" rows="10"></textarea>
+        </div>
+
+      </fieldset>
+
+      <div class="form-actions">
+        <button type="submit" style="font-size: large">Send</button>
+        <button type="reset" style="font-size: large">Reset</button>
+      </div>
+
+    </form>
+  </main>
+  <footer class="footer">
+    <a href="https://linkedin.com">
+      <i style="font-size: 50px;" class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/Otxobot">
+      <i style="font-size: 50px;" class="fa-brands fa-github"></i>
+    </a>
+  </footer>
 </body>
 
 </html>
