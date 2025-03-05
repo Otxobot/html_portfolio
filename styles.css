@@ -111,11 +111,19 @@
       align-items: center;
       justify-content: center;
       margin-left: 40px;
+      border: 10px solid #53cbef;
+      border-radius: 20px;
     }
 
     .guy-pic {
       margin-top: 30px;
       margin-left: 30px;
+    }
+    
+    .guy-pic2 {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
     }
 
     .guy-skills{ 
@@ -138,4 +146,6 @@
     .profile-image {
       border-radius: 20px;
       padding: 0px;
+      border: 10px solid #53cbef;
+      margin-left: 10px;
     }
