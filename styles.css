@@ -118,6 +118,8 @@
     .guy-pic {
       margin-top: 30px;
       margin-left: 30px;
+      width: 100%;
+      text-align: center;
     }
     
     .guy-pic2 {
