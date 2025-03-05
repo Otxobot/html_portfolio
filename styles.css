@@ -1,7 +1,8 @@
 
 .title
 {
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 2rem;
   color: rgb(255, 255, 255);
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -11,6 +12,7 @@
     overflow: hidden;
     background-color: #333;
     position: relative;
+    border-radius: 20px;
     
   }
 
@@ -44,7 +46,7 @@
     color: #fff;
     cursor: pointer;
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 1.3em;
     font-weight: bold;
     letter-spacing: 1px;
     border: none;
@@ -63,20 +65,24 @@
    }
 
    .footer {
-    background-color: #f6f6f6 ;
-    padding: 20px 10px;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+      background-color: #d6cfcf;
+      padding: 20px 10px;
+      text-align: center;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      border-radius: 20px;
     }
 
     .column {
+      
       float: left;
-      width: 40%;
+      width: 25%;
       padding: 10px;
-      height: 300px; /* Should be removed. Only for demonstration */
+      height: 300px;
+      border: 2px solid black;
+      border-radius: 30px;
     }
     
     .row:after {
@@ -85,22 +91,33 @@
       clear: both;
     }
 
-    .guy-info {
-      text-align: left;
-
+    #user-info{
+      justify-content: space-between;
+      margin-top: 120px;
+      margin-left: 40px;
     }
 
-    .profile-title {
-      font-size: 50px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    .guy-info {
+      display: inline-block;
+      width: 45%;
+      margin-left: 60px;
     }
 
     .guy-pic {
-      float: left;
+      display: inline-block;
+    }
+
+    .profile-title {
+      font-size: 3rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .form {
       padding: 200px;
       border: 5px solid black;
       margin: 20px;
+    }
+
+    .profile-image {
+      border-radius: 20px;
     }
