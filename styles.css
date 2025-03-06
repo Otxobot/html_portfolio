@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-/* html, body {
-  margin: 0;
-  padding: 0;
-} */
-
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -35,12 +30,6 @@
   background-color: #53cbef;
 }
 
-/* .navbar-right {
-  float: right;
-  top: 50%;
-  left: 50%;
-} */
-
   button {
     background-color: #f0e9e9;
     border-radius: 4px;
@@ -65,16 +54,6 @@
      background-position: 20vw;
     }
    }
-
-   /* footer {
-      background-color: #d6cfcf;
-      height: 2rem;
-      padding: 0.5rem;
-   }
-
-   footer * {
-    display: inline-block;
-   } */
 
    .footer {
       background-color: #d6cfcf;
@@ -178,7 +157,7 @@
     width: 500px;
   }
   100% { 
-    width: 1000px;
+    width: 1600px;
   }
 }
 
