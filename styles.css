@@ -55,6 +55,7 @@
     background-image: linear-gradient(90deg, #53cbef 0%, #dcc66c 50%, #ffa3b6 75%, #53cbef 100%);
     animation: slidernbw 5s linear infinite;
     color: #000;
+    transform: scale(1.1) translate(10px);
    }
    
    @keyframes slidernbw {
@@ -153,4 +154,20 @@
       padding: 0px;
       border: 10px solid #53cbef;
       margin-left: 10px;
+      animation-name: picanimation;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+
     }
+
+@keyframes picanimation {
+  0% { 
+    width: 400px;
+   }
+  50% {
+    width: 1000px;
+  }
+  100% { 
+    width: 2000px;
+  }
+}
