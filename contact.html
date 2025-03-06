@@ -22,39 +22,29 @@
     </div>
   </header>
   <main>
-    <form class="form">
+    <div class="form-container">
+      <form class="form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="firstname" placeholder="Your name..">
 
-      <fieldset>
-        <legend style="font-size: x-large;">Personal details</legend>
-        <div>
-          <p style="font-size:20px;">Let's get in touch!</p>
-        </div>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-        <div class="form-group">
-          <label for="nombre" style="font-size: large">Name:</label>
-          <input type="text" id="nombre" name="nombre" required>
-          <span class="help-text" style="font-size: large">Type your entire name</span>
-        </div>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="euskalherria">Euskal Herria</option>
+          <option value="france">France</option>
+          <option value="usa">USA</option>
+        </select>
 
-        <div class="form-group">
-          <label for="email" style="font-size: large">Email:</label>
-          <input type="email" id="email" name="email" required>
-          <span class="error-message" style="font-size: large">Invalid email</span>
-        </div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" placeholder="Write your email...">
+        <label for="subject">Lets get in touch!</label>
+        <textarea id="subject" name="subject" placeholder="Tell me something.." style="height:200px"></textarea>
 
-        <div>
-          <p style="font-size:20px;">Send me a message</p>
-          <textarea name="textarea" id="textarea2" cols="30" rows="10"></textarea>
-        </div>
-
-      </fieldset>
-
-      <div class="form-actions">
-        <button type="submit" style="font-size: large">Send</button>
-        <button type="reset" style="font-size: large">Reset</button>
-      </div>
-
-    </form>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </main>
   <footer class="footer">
     <a href="https://linkedin.com">
