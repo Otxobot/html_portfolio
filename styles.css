@@ -154,10 +154,16 @@
       padding: 0px;
       border: 10px solid #53cbef;
       margin-left: 10px;
+      /* animation-name: picanimation;
+      animation-iteration-count: infinite;
+      animation-duration: 2s; */
+
+    }
+
+    .profile-image:hover{
       animation-name: picanimation;
       animation-iteration-count: infinite;
-      animation-duration: 5s;
-
+      animation-duration: 2s;
     }
 
 @keyframes picanimation {
