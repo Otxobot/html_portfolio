@@ -75,16 +75,17 @@
       display: grid;
       grid-template-columns: auto auto auto;
       padding: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .grid > div{
       background-color: #f1f1f1;
       border: 1px solid black;
       padding: 10px;
-      font-size: 30px;
+      font-size: 20px;
       text-align: center;
     }
-
+/* 
     .row p {
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: large;
@@ -93,7 +94,7 @@
     .row h2 {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: xx-large;
-    }
+    } */
 
     .guy-info {
       align-items: center;
@@ -237,14 +238,50 @@
   width: 100%;
 }
 
-@media (min-width:768px){
-  .project {
-    width: 25%;
+@media (max-width:768px){
+  .navbar {
+    width: 400px;
+    padding: 100px, 0;
+    margin: 0 auto;
   }
+  
+  .navbar-buttons {
+    width: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+  }
+
+  button {
+    background-color: #f0e9e9;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 7px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+   }
+
+   .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+  .grid > div{
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+
 }
 
-@media (min-width:1024px){
+/* @media (min-width:1024px){
   .project {
     width: 20%;
   }
-}
+} */
