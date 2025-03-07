@@ -141,6 +141,14 @@
       font-family: Arial, Helvetica, sans-serif;
     }
 
+    .form {
+      padding: 100px;
+      border: 5px solid black;
+      margin: 20px;
+      margin-bottom: 100px;
+    }
+    
+
     input[type=submit]:hover {
       background-color: #53cbef;
     }
@@ -165,23 +173,12 @@
       resize: vertical;
     }
 
-    .form {
-      padding: 200px;
-      border: 5px solid black;
-      margin: 20px;
-      margin-bottom: 100px;
-    }
-    
     .profile-image {
       border-radius: 20px;
       padding: 0px;
       border: 10px solid #53cbef;
       margin-left: 10px;
       max-width: 100%;
-      /* animation-name: picanimation;
-      animation-iteration-count: infinite;
-      animation-duration: 2s; */
-
     }
 
     .profile-image:hover{
@@ -239,7 +236,7 @@
   width: 100%;
 }
 
-@media (max-width:768px){
+@media (max-width: 896px){
   .navbar {
     width: 400px;
     padding: 100px, 0;
@@ -279,15 +276,45 @@
     text-align: center;
   }
 
-}
-
-
-
-/* @media (min-width:1024px){
-  .project {
-    width: 20%;
+  .form-container {
+    border-radius: 5px;
+    background-color: #e7e0e0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%
   }
-} */
+
+  input[type=submit]:hover {
+    background-color: #53cbef;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .form {
+    /* padding: 200px; */
+    border: 5px solid black;
+    /* margin: 20px 20px 20px 20px; */
+    /* margin-bottom: 100px; */
+  }
+}
 
 body {
   background-image: url("images/back2.jpg");
