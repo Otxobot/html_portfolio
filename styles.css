@@ -100,6 +100,7 @@
       align-items: center;
       justify-content: center;
       margin-left: 40px;
+      margin-bottom: 40px;
       border: 10px solid #53cbef;
       border-radius: 20px;
     }
@@ -148,7 +149,6 @@
       margin-bottom: 100px;
     }
     
-
     input[type=submit]:hover {
       background-color: #53cbef;
     }
