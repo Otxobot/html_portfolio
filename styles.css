@@ -99,8 +99,9 @@
     .guy-info {
       align-items: center;
       justify-content: center;
-      margin-left: 40px;
-      margin-bottom: 40px;
+      margin: 40px 40px 40px 40px;
+      /* margin-left: 40px;
+      margin-bottom: 40px; */
       border: 10px solid #53cbef;
       border-radius: 20px;
     }
@@ -144,7 +145,8 @@
 
     .form {
       padding: 100px;
-      border: 5px solid black;
+      border: 5px solid #53cbef;
+      border-radius: 5px;
       margin: 20px;
       margin-bottom: 100px;
     }
@@ -154,7 +156,7 @@
     }
 
     input[type=submit] {
-      background-color: #04AA6D;
+      background-color: #53cbef;
       color: white;
       padding: 12px 20px;
       border: none;
@@ -318,7 +320,6 @@
 
 body {
   background-image: url("images/back2.jpg");
-  /* background-size: cover; Optional: Makes the image cover the whole page */
   background-position: center; /* Optional: Centers the image */
   background-color: rgba(0, 0, 0, 0.6); /* Black with 50% opacity */
   background-blend-mode: multiply; /* Blends the color with the image */
