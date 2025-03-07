@@ -131,6 +131,7 @@
     .profile-title {
       font-size: 3rem;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
     }
     
     .form-container {
@@ -280,8 +281,14 @@
 
 }
 
+
+
 /* @media (min-width:1024px){
   .project {
     width: 20%;
   }
 } */
+
+body {
+  background-image: url("images/back2.jpg");
+}
