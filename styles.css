@@ -318,4 +318,9 @@
 
 body {
   background-image: url("images/back2.jpg");
+  /* background-size: cover; Optional: Makes the image cover the whole page */
+  background-position: center; /* Optional: Centers the image */
+  background-color: rgba(0, 0, 0, 0.6); /* Black with 50% opacity */
+  background-blend-mode: multiply; /* Blends the color with the image */
+  
 }
